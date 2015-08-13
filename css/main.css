@@ -95,21 +95,80 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,800,300italic);
 
+@font-face {
+  font-family:'gearedslab-bold-webfont';
+  src:url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-bold-webfont/gearedslab-bold-webfont.eot);
+  src:url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-bold-webfont/gearedslab-bold-webfont.eot?#iefix) format("embedded-opentype"),url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-bold-webfont/gearedslab-bold-webfont.woff) format("woff"),url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-bold-webfont/gearedslab-bold-webfont.ttf) format("truetype"),url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-bold-webfont/gearedslab-bold-webfont.svg#ywftsvg) format("svg");
+  font-weight:700;
+  font-style:normal
+}
 
+@font-face {
+  font-family:'gearedslab-light-webfont';
+  src:url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-light-webfont/gearedslab-light-webfont.eot);
+  src:url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-light-webfont/gearedslab-light-webfont.eot?#iefix) format("embedded-opentype"),url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-light-webfont/gearedslab-light-webfont.woff) format("woff"),url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-light-webfont/gearedslab-light-webfont.ttf) format("truetype"),url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-light-webfont/gearedslab-light-webfont.svg#ywftsvg) format("svg");
+  font-weight:400;
+  font-style:normal
+}
+
+@font-face {
+  font-family:'hold_fast_foundry_-_gin-webfont';
+  src:url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/hold_fast_foundry_-_gin-webfont/hold_fast_foundry_-_gin-webfont.eot);
+  src:url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/hold_fast_foundry_-_gin-webfont/hold_fast_foundry_-_gin-webfont.eot?#iefix) format("embedded-opentype"),url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/hold_fast_foundry_-_gin-webfont/hold_fast_foundry_-_gin-webfont.woff) format("woff"),url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/hold_fast_foundry_-_gin-webfont/hold_fast_foundry_-_gin-webfont.ttf) format("truetype"),url(https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/hold_fast_foundry_-_gin-webfont/hold_fast_foundry_-_gin-webfont.svg#ywftsvg) format("svg");
+  font-weight:400;
+  font-style:normal
+}
+
+html{
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 100; 
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: 500; 
+    font-weight: normal;
+}
 
 article{
     display: -webkit-inline-box;
+    position: relative;
 }
 
+article.tile {
+    width: 24.6%;
+    height: 270px;
+}
 
+.bgtile {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.tile-description{
+    display: none;
+}
 
+.tile-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.51);
+    color: #222;
+    overflow: hidden;
+}
 
-
-
-
-
+.tile-title{
+    padding: 0 .1em 0 .1em;
+}
 
 
 

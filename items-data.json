@@ -4,9 +4,9 @@
 		{
 			"id": "tileitem-01",
 			"title": "Weird Taxidermy: Artist Inflated Animals into Colorful Balloons ",
-			"description": "Weird Taxidermy: Artist Inflated Animals into Colorful Balloons", 
+			"description": "Artist Inflated Animals into Colorful Balloons", 
 			"type": "image",
-			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/Waffle-House-Index-Ripleys-Header.jpg" 		
+			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/07/This-Horse-is-said-to-represent-harmony-harmoneigh.png"
 		},
 		{
 			"id": "tileitem-02",
@@ -21,7 +21,7 @@
 			"description": "Used by Lamaist monks during ritual ceremonies, animal votive skulls are cherished as religious relics in Tibet in the belief that the soul of the animal resides ",
 			"type": "spin",
 			"spin": "<iframe src='//spins0.arqspin.com/iframe.html?spin=esmxi9bojr6m&is=-0.16' width=512 height=512 scrolling='no' frameborder='0'></iframe>",
-			"mediaURL":"http://www.ripleys.com/wp-content/uploads/2015/08/RipCycle-Header.jpg" 
+			"mediaURL":"http://www.ripleys.com/wp-content/uploads/2015/06/Ripcycle-Entires-Week-3-Unbelievable-Art-Contest.jpg" 
 		},
 		{
 			"id": "tileitem-04",
@@ -29,7 +29,7 @@
 			"description": "Used by Lamaist monks during ritual ceremonies, animal votive skulls are cherished as religious relics in Tibet in the belief that the soul of the animal resides ",
 			"type": "spin",
 			"spin": "<iframe src='//spins0.arqspin.com/iframe.html?spin=esmxi9bojr6m&is=-0.16' width=512 height=512 scrolling='no' frameborder='0'></iframe>",
-			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/RipCycle-Header.jpg"
+			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/06/Ripcycle-Entires-Week-3-Unbelievable-Art-Contest.jpg"
 		},
 		{
 			"id": "tileitem-05",
