@@ -1,0 +1,50 @@
+{
+	"displayitems": [
+
+		{
+			"id": "tileitem-01",
+			"title": "Weird Taxidermy: Artist Inflated Animals into Colorful Balloons ",
+			"description": "Weird Taxidermy: Artist Inflated Animals into Colorful Balloons", 
+			"type": "image",
+			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/Waffle-House-Index-Ripleys-Header.jpg" 		
+		},
+		{
+			"id": "tileitem-02",
+			"title": "Weird Taxidermy: Artist Inflated Animals into Colorful Balloons ",
+			"description": "Weird Taxidermy: Artist Inflated Animals into Colorful Balloons", 
+			"type": "image",
+			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/Waffle-House-Index-Ripleys-Header.jpg" 
+		},
+		{
+			"id": "tileitem-03",
+			"title": "Tibetan Ram Skull", 
+			"description": "Used by Lamaist monks during ritual ceremonies, animal votive skulls are cherished as religious relics in Tibet in the belief that the soul of the animal resides ",
+			"type": "spin",
+			"spin": "<iframe src='//spins0.arqspin.com/iframe.html?spin=esmxi9bojr6m&is=-0.16' width=512 height=512 scrolling='no' frameborder='0'></iframe>",
+			"mediaURL":"http://www.ripleys.com/wp-content/uploads/2015/08/RipCycle-Header.jpg" 
+		},
+		{
+			"id": "tileitem-04",
+			"title": "Tibetan Ram Skull", 
+			"description": "Used by Lamaist monks during ritual ceremonies, animal votive skulls are cherished as religious relics in Tibet in the belief that the soul of the animal resides ",
+			"type": "spin",
+			"spin": "<iframe src='//spins0.arqspin.com/iframe.html?spin=esmxi9bojr6m&is=-0.16' width=512 height=512 scrolling='no' frameborder='0'></iframe>",
+			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/RipCycle-Header.jpg"
+		},
+		{
+			"id": "tileitem-05",
+			"title": "The “Waffle House Index” Used For Emergencies ", 
+			"description": "The \"Waffle House Index\" is used to measure disasters!",
+			"type": "blog",
+			"blog": "http://www.ripleys.com/blog/waffle-house-index/",
+			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/Waffle-House-Index-Ripleys-Header.jpg" 
+		}
+
+
+	]
+}
+
+
+
+
+
