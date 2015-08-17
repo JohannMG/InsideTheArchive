@@ -1,3 +1,10 @@
+
+/*--------------
+  Get display items data and render the
+  Handlebars template after a successful
+  AJAX request
+----------------*/
+
 var itemList;
 var tile  = $("#tile-item").html();
 var tileItemTemplate = Handlebars.compile(tile);
@@ -19,3 +26,7 @@ $.ajax({
   }
 });
 
+
+/*--------------
+  
+----------------*/

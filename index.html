@@ -28,7 +28,7 @@
   <aside id="tile-item" type="x-handlebars-template" style="display:none;">
     {{#each displayitems}}
       <article id="{{id}}" class="tile media-{{type}}">
-        <div class="bgtile bgtile-{{type}}" style="background-image:url('{{mediaURL}}')" >
+        <div class="bgtile bgtile-{{type}}" style="background-image:url('{{mediaURL}}')" media="{{mediaURL}}" >
           <div class="tile-title tile-title-{{type}}"><h3>{{title}}</h3></div>
           <div class="tile-description  tile-decription{{type}}"><p>{{{description}}}</p></div>
         </div>
@@ -36,8 +36,7 @@
     {{/each}}
   </aside>
 
-  <aside id="test" type="x-handlebars-template" style="display:none;">
-    
+  <aside id="test" type="x-handlebars-template" style="display:none;">    
     <div>{{data}}</div>
   </aside>
 
@@ -58,6 +57,7 @@
   <script src="js/plugins.js"></script> 
   <script src="js/vendor/jquery.colorbox-min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/add-light-box.js"></script>
 
 </body>
 </html>
