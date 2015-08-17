@@ -167,8 +167,39 @@ article.tile {
 }
 
 .tile-title{
-    padding: 0 .1em 0 .1em;
+  padding: 0 .1em 0 .1em;
 }
+
+
+.lightboxHTML p {
+  color: #313131;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 400;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+button#cboxClose {
+  background: none;
+  background-color: #696969;
+  width: 100%;
+  color: #FFF;
+  font-size: 2em;
+  text-indent: initial;
+  text-transform: uppercase;
+  font-family: 'gearedslab-bold-webfont', Georgia, serif;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
