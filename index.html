@@ -27,8 +27,8 @@
   <![endif]-->
   <aside id="tile-item" type="x-handlebars-template" style="display:none;">
     {{#each displayitems}}
-      <article id="{{id}}" class="tile media-{{type}}">
-        <div class="bgtile bgtile-{{type}}" style="background-image:url('{{mediaURL}}')" media="{{mediaURL}}" >
+      <article id="{{id}}" class="tile media-{{type}}" media="{{mediaURL}}">
+        <div class="bgtile bgtile-{{type}}" style="background-image:url('{{mediaURL}}')" >
           <div class="tile-title tile-title-{{type}}"><h3>{{title}}</h3></div>
           <div class="tile-description  tile-decription{{type}}"><p>{{{description}}}</p></div>
         </div>
