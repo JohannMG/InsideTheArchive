@@ -11,18 +11,19 @@
 	Underscore.js >> http://underscorejs.org/
 ----------------*/
 
+//FUNCTION to be called when HTML is loaded
+function attachLightboxes () {
+	attachPhotoLightboxes(); 
+	attachSpin360Lightboxes(); 
+}
+
 
 ///colorbox STANDARDS
 var LB_SETTINGS = {
 	FADEIN_SPEED: function () { return 150; }, 
 	SCROLLING: function () { return true; }, 
 	OPATICY: function () { return 0.75; }, 
-	FADEOUT_SPEED: function () { return 150; }, 
-
-	//positioning
-	TOP: function () { return "25%"; }, 
-	LEFT: function() { return "20%"; },
-	WIDTH: function() { return "80%"; }
+	FADEOUT_SPEED: function () { return 150; }
 	
 };
 ///end colorbox settings
@@ -32,7 +33,7 @@ var LB_SETTINGS = {
 function attachPhotoLightboxes () {
 	var photoItemsArray = $('.media-image'); 
 
-	_.forEach(photoItemsArray, function(element, indes, list){
+	_.each(photoItemsArray, function(element, index, list){
 
 		var media = element.getAttribute('media'); 
 		var description = element.getElementsByClassName('tile-description')[0].innerHTML || ""; 
@@ -49,11 +50,32 @@ function attachPhotoLightboxes () {
 	});
 }
 
+//ArqSpin Media Embeds
+function attachSpin360Lightboxes(){
+	var spinItemsArray = document.getElementsByClassName('media-spin');
+	
+	_.each(spinItemsArray, function (element, index, list) {
+		
+		var spinID = element.id; 
 
-//!!!!NOT CALLED AUTOMATICALLY!!!!
-//method calls async
-document.addEventListener("DOMContentLoaded", function(event) { 
-	attachPhotoLightboxes(); 
-});
+		var tileData = _.find( itemList.displayitems, function(item) {
+		 	return (item.id === spinID); 
+		}); 
+
+		var spinHTML = '<div class="spin360-Embed">'+ tileData.spinEmbed +'</div>';
+
+		$(element).colorbox({
+			html: spinHTML, 
+			speed: LB_SETTINGS.FADEIN_SPEED(), 
+			scrolling: LB_SETTINGS.SCROLLING(), 
+			opacity: LB_SETTINGS.OPATICY(),
+			fadeOut: LB_SETTINGS.FADEOUT_SPEED()
+
+		}); 
 
 
+
+	}); 
+
+
+}

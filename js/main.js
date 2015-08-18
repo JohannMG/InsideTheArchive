@@ -17,14 +17,25 @@ $.ajax({
   dataType: "json",
   success: function( data ) {
     itemList = data;
-    renderedTiles = tileItemTemplate(itemList);
-    var tileContainer = document.getElementById('tiles-container'); 
-    tileContainer.innerHTML = renderedTiles;
+    renderTilesTemplate();
   },
   error: function(jqXHR, textStatus, errorThrown){
   	console.log(errorThrown);
   }
 });
+
+
+//
+function renderTilesTemplate (){
+  //render and stick in DOM
+  renderedTiles = tileItemTemplate(itemList);
+  var tileContainer = document.getElementById('tiles-container'); 
+  tileContainer.innerHTML = renderedTiles;
+
+  //add-light-box.js
+  attachLightboxes();
+}
+
 
 
 /*--------------

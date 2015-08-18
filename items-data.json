@@ -1,4 +1,11 @@
 {
+	"comments": [	"Pulled in for dynamic rendering into HTML.",
+					"Each MUST hace a unique 'id' value for valid HTML and the lightboxes to work",
+
+					"PLEASE VALIDATE JSON EDITS HERE ->> http://codebeautify.org/jsonvalidate",
+					""
+				], 
+
 	"displayitems": [
 
 		{
@@ -20,7 +27,7 @@
 			"title": "Tibetan Ram Skull", 
 			"description": "Used by Lamaist monks during ritual ceremonies, animal votive skulls are cherished as religious relics in Tibet in the belief that the soul of the animal resides ",
 			"type": "spin",
-			"spin": "<iframe src='//spins0.arqspin.com/iframe.html?spin=esmxi9bojr6m&is=-0.16' width=512 height=512 scrolling='no' frameborder='0'></iframe>",
+			"spinEmbed": "<iframe src='//spins0.arqspin.com/iframe.html?spin=esmxi9bojr6m&is=-0.16' width=950 height=950 scrolling='no' frameborder='0'></iframe>",
 			"mediaURL":"http://www.ripleys.com/wp-content/uploads/2015/06/Ripcycle-Entires-Week-3-Unbelievable-Art-Contest.jpg" 
 		},
 		{
@@ -28,7 +35,7 @@
 			"title": "Tibetan Ram Skull", 
 			"description": "Used by Lamaist monks during ritual ceremonies, animal votive skulls are cherished as religious relics in Tibet in the belief that the soul of the animal resides ",
 			"type": "spin",
-			"spin": "<iframe src='//spins0.arqspin.com/iframe.html?spin=esmxi9bojr6m&is=-0.16' width=512 height=512 scrolling='no' frameborder='0'></iframe>",
+			"spinEmbed": "<iframe src='//spins0.arqspin.com/iframe.html?spin=esmxi9bojr6m&is=-0.16' width=950 height=950 scrolling='no' frameborder='0'></iframe>",
 			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/06/Ripcycle-Entires-Week-3-Unbelievable-Art-Contest.jpg"
 		},
 		{
