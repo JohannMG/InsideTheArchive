@@ -25,24 +25,29 @@
   <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
+
+  <!-- TEMPLATING HTML -->
   <aside id="tile-item" type="x-handlebars-template" style="display:none;">
-    {{#each displayitems}}
-      <article id="{{id}}" class="tile media-{{type}}" media="{{mediaURL}}">
-        <div class="bgtile bgtile-{{type}}" style="background-image:url('{{mediaURL}}')" >
-          <div class="tile-title tile-title-{{type}}"><h3>{{title}}</h3></div>
-          <div class="tile-description  tile-decription{{type}}"><p>{{{description}}}</p></div>
+    {{#each displayitems }}
+<article id="{{ id }}" class="tile media-˝{{ type }}" media="{{ mediaURL }}">
+        <div class="bgtile bgtile-{{ type }}" style="background-image:url('{{ mediaURL }}')" >
+          <div class="tile-title tile-title-{{ type }}"><h3 class="titleheader">{{ title }}</h3></div>
+          <div class="tile-description tile-description{{ type }}"><p class="sub-tile-description">{{{description}}}</p></div>
         </div>
-      </article>
-    {{/each}}
+      </article>{{/each }}
   </aside>
+
 
   <aside id="test" type="x-handlebars-template" style="display:none;">    
-    <div>{{data}}</div>
+    <div>{{ data }}</div>
   </aside>
+  <!-- END TEMPLATING HTML -->
 
 
-  <div class="container">
-    <div id="tiles-container">
+  <div class="container" >
+    <section class="banner"><img class="main-banner" src="http://d3uf2ssic990td.cloudfront.net/images/4723/bb8ede58-3ec2-4260-8a66-90ec933e39ea/1st-header-header-01.png" width="100%"></section>
+
+    <div id="tiles-container" >
     </div>
   </div>
   
@@ -51,6 +56,7 @@
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
   <script src="js/plugins.js"></script> 
   <script src="js/vendor/jquery.colorbox-min.js"></script>
+  <script src="js/items-list.js"></script>
   <script src="js/main.js"></script>
   <script src="js/add-light-box.js"></script>
 

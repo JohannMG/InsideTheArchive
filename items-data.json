@@ -40,16 +40,17 @@
 		},
 		{
 			"id": "tileitem-05",
-			"title": "The “Waffle House Index” Used For Emergencies ", 
-			"description": "The \"Waffle House Index\" is used to measure disasters!",
-			"type": "blog",
-			"blog": "http://www.ripleys.com/blog/waffle-house-index/",
-			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/Waffle-House-Index-Ripleys-Header.jpg" 
+			"title": "Tiger Woman: Tattooed Head to Toe", 
+			"description": "FEATURED IN RIPLEY'S BELIEVE IT OR NOT! REALITY SHOCK: Katzen Hobbes is a real-life Catwoman with 90% of her body tattooed with black tiger stripes!",
+			"type": "videoEmbed",
+			"videoEmbed": "<iframe width='853' height='480' src='https://www.youtube-nocookie.com/embed/kqCPIDrPic8?autoplay=1&list=PL3fZl9yFVeRLJSAVEFPhrBe0d5hMRWtwu&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>",
+			"mediaURL": "http://www.ripleys.com/wp-content/uploads/2014/10/Katzen-With-Jeep-Ripleys-BION.jpg" 
 		}
 
 
 	]
 }
+
 
 
 

@@ -1,32 +1,16 @@
 
 /*--------------
-  Get display items data and render the
-  Handlebars template after a successful
-  AJAX request
+  Get display items data from variable
 ----------------*/
-
-var itemList;
-var tile  = $("#tile-item").html();
-var tileItemTemplate = Handlebars.compile(tile);
-var renderedTiles; 
+var itemList = tileDataJSON;
 
 
-$.ajax({
-  url: "/items-data.json",
-  data: {},
-  dataType: "json",
-  success: function( data ) {
-    itemList = data;
-    renderTilesTemplate();
-  },
-  error: function(jqXHR, textStatus, errorThrown){
-  	console.log(errorThrown);
-  }
-});
+document.addEventListener("DOMContentLoaded", function(event) { 
+  
+  var tile  = $("#tile-item").html();
+  var tileItemTemplate = Handlebars.compile(tile);
+  var renderedTiles; 
 
-
-//
-function renderTilesTemplate (){
   //render and stick in DOM
   renderedTiles = tileItemTemplate(itemList);
   var tileContainer = document.getElementById('tiles-container'); 
@@ -34,10 +18,5 @@ function renderTilesTemplate (){
 
   //add-light-box.js
   attachLightboxes();
-}
 
-
-
-/*--------------
-  
-----------------*/
+});
