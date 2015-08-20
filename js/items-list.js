@@ -20,7 +20,7 @@ return[
 		"title": "Weird Taxidermy",
 		"description": "Artist Inflated Animals into Colorful Balloons", 
 		"type": "image",
-		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/07/This-Horse-is-said-to-represent-harmony-harmoneigh.png"
+		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/This-Horse-is-said-to-represent-harmoneigh.jpg"
 	},
 	{
 		"id": "longskull",
@@ -45,6 +45,14 @@ return[
 		"type": "videoEmbed",
 		"videoEmbed": "<iframe width='853' height='480' src='https://www.youtube-nocookie.com/embed/kqCPIDrPic8?autoplay=1&list=PL3fZl9yFVeRLJSAVEFPhrBe0d5hMRWtwu&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>",
 		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2014/10/Katzen-With-Jeep-Ripleys-BION.jpg" 
+	},
+	{
+		"id": "edibleskulls",
+		"title": "Skulls You Can Eat?", 
+		"description": "Skull elongation has been found in other cultures like the Vanuatu, Egyptians, Olmecs, the Obijwa Indians, and in small areas in Africa.",
+		"type": "videoEmbed",
+		"videoEmbed": "<iframe width='853' height='480' src='https://www.youtube-nocookie.com/embed/VjQHvYGa174?list=PL3fZl9yFVeRJ0LQU7KlxMeaOu1k8rjW27&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>",
+		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/rbion-skulls-s01e01.jpg" 
 	},
 	{
 		"id": "shrunkenhead360",
@@ -88,7 +96,8 @@ return[
 		"id": "inflated-heads-taxidermy",
 		"title": "Inflated Heads",
 		"description": "Inflated cow head taxidermy made by Hungarian artist.", 
-		"type": "image",
+		"type": "spin",
+		"spinEmbed": "<iframe src='//spins0.arqspin.com/iframe.html?spin=13ynb1rofxf9i&is=-0.16' width=950 height=950 scrolling='no' frameborder='0'></iframe>",
 		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/2015_Warehouse_1699_950px.jpg"
 	},
 	{	
@@ -96,14 +105,22 @@ return[
 		"title": "Dyak Carved Skull",
 		"description": "Dyak Carved Skull", 
 		"type": "image",
-		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/2015_Warehouse-06-15_1686_950px.jpg"
+		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/Skull-Carvings-Ripleys-Warehouse-Archive.jpg"
+	},
+	{
+		"id": "weeklyshow3",
+		"title": "Extreme Wingsuit Jump", 
+		"description": "Take a look at hardcore parkour at 43 stories high, the most talented raccoon, the drunkest raccoon, a flying co-pilot cat, and an extreme wingsuit jump that will leave you speechless! LET’S GO!",
+		"type": "videoEmbed",
+		"videoEmbed": "<iframe width='853' height='480' src='https://www.youtube-nocookie.com/embed/i8Gw-KEWWxo?list=PL3fZl9yFVeRKA3yzl7Olku7JulhEVrYeE&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>",
+		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/bion-of-the-week-s01e021.jpg" 
 	},
 	{	
 		"id": "foodogs",
 		"title": "Foo Dogs",
 		"description": "Foo Dogs from Robert Ripley's private home collection.", 
 		"type": "image",
-		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/2015_Ripleys-Warehouse-July_2516_950px.jpg"
+		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/Foo-Dogs-Warehouse-950px.jpg"
 	},
 	{
 		"id": "tileitem-06",
@@ -112,6 +129,14 @@ return[
 		"type": "videoEmbed",
 		"videoEmbed": "<iframe src='https://player.vimeo.com/video/106517498?color=ff262a&byline=0&portrait=0' width='853' height='480' frameborder='0'></iframe>",
 		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2014/09/RipleysBION-2014WoodenFerrari_0177.jpg" 
+	},
+	{
+		"id": "DoDoBird",
+		"title": "Dodo Bird Skeleton", 
+		"description": "On average, dodo birds stood 3 feet tall and weighted about 40 lb. Unfortunately, due to aggressive human population, dodo birds became extinct in late 17th century.",
+		"type": "spin",
+		"spinEmbed": "<iframe src='//spins0.arqspin.com/iframe.html?spin=3v83ba9frsueq&is=-0.16' width=950 height=950 scrolling='no' frameborder='0'></iframe>",
+		"mediaURL": "http://www.ripleys.com/wp-content/uploads/2015/08/Dodo-Bird.jpg" 
 	},
 	{	
 		"id": "whitehousegavel",
