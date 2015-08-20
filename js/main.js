@@ -20,3 +20,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   attachLightboxes();
 
 });
+
+// $(document).bind('cbox_complete', function(){
+//   $('.lb').magnify({
+//     speed: 200
+//   });
+// });

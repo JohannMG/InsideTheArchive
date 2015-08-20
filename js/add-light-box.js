@@ -39,7 +39,7 @@ function attachPhotoLightboxes () {
 
 		var media = element.getAttribute('media'); 
 		var description = element.getElementsByClassName('tile-description')[0].innerHTML || ""; 
-		var imgHTML =  '<div class="lightboxHTML"><img class="lb" src="' + media + '"/>'+ description +'</div>'; 
+		var imgHTML =  '<div class="lightboxHTML"><img class="lb" src="' + media + '" data-magnify-src="'+ media +'"/>'+ description +'</div>'; 
 
 		$(element).colorbox({
 			html: imgHTML, 
