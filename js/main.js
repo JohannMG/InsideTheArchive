@@ -19,6 +19,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
   //add-light-box.js
   attachLightboxes();
 
+  var autoClick = window.setTimeout(function () {
+    var spins = $('article.media-spin');
+    $( spins[ _.random(0, spins.length) ] ).click(); 
+
+
+  }, 1500); 
+
+
+
 });
 
 // $(document).bind('cbox_complete', function(){
@@ -26,3 +35,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
 //     speed: 200
 //   });
 // });
+
